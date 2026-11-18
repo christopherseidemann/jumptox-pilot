@@ -24,6 +24,11 @@ structures, so compounds are de-duplicated before matching. "Active in SR-MMP" m
 the compound disturbed the mitochondrial membrane potential in that assay -> not that
 it is toxic.
 
+
+## Note
+
+Built with Claude as a tutor: it walked me through the code and reviewed my results. I typed and ran every cell myself and commented it in my own words.
+
 ## Data
 
 Downloaded by the notebook, not committed:
@@ -33,6 +38,7 @@ Downloaded by the notebook, not committed:
 
 Both are pulled from the repositories default branch, so numbers can shift if those
 files are updated. The results above were produced on 18 November 2026.
+
 
 ## Run
 
