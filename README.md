@@ -24,11 +24,6 @@ structures, so compounds are de-duplicated before matching. "Active in SR-MMP" m
 the compound disturbed the mitochondrial membrane potential in that assay -> not that
 it is toxic.
 
-
-## Note
-
-Built with Claude as a tutor: it walked me through the code and reviewed my results. I typed and ran every cell myself and commented it in my own words.
-
 ## Data
 
 Downloaded by the notebook, not committed:
@@ -47,3 +42,5 @@ pip install -r requirements.txt
 ```
 
 Then open `tox21_jump_pilot.ipynb` and run it top to bottom
+
+Self-directed pilot project, Claude was used for code review and exploring RDKit best practices.
