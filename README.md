@@ -9,21 +9,19 @@ matching criteria change the answer?
 
 ## Phase 1 result
 
-Of 5,730 Tox21 compounds with an SR-MMP label, 1,625 appear in JUMP
+Of 5,730 unique Tox21 compounds with an SR-MMP label, 1,625 appear in JUMP
 when matching on the InChIKey connectivity block, and 1,050 when the full key
 must agree. 240 of the 1,625 are active in SR-MMP (14.8%, against 15.9% across all
-labelled compounds, so the matched subset is not enriched).
+5,730 compounds, so the matched subset is not enriched).
 
 I first assumed the 575-compound difference came from salt forms, but it does not!
 Standardising the JUMP side the same way as the Tox21 side changes the count by
 zero. The difference is 519 compounds where Tox21 specifies stereochemistry and
 JUMP records none, and 56 that differ only in protonation state.
 
-Counting note: the raw file has 5,914 usable records, but 184 of them are duplicate
-structures, so compounds are de-duplicated before matching. "Active in SR-MMP" means
-the compound disturbed the mitochondrial membrane potential in that assay -> not that
-it is toxic.
-
+Counting note: of the 8,014 records in the raw file, 5,914 have an SR-MMP label and a
+readable structure. 184 of them are duplicate structures, so compounds are de-duplicated
+before matching.
 ## Data
 
 Downloaded by the notebook, not committed:
